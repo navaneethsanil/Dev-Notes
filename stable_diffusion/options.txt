@@ -1,0 +1,17 @@
+1. Full Fine-Tuning
+
+* Retrains all model weights.
+* Extremely resource-intensive (multi-A100s, many hours/days).
+* Rarely needed unless your dataset is huge (hundreds of thousands of images).
+
+2. DreamBooth (personalization)
+
+* Teaches the model a new concept (e.g., your dog, a product) with a small dataset (10–100 images).
+* Fine-tunes just enough weights so you can invoke that concept with a trigger word in prompts.
+* Works well if your dataset is centered around a subject.
+
+3. LoRA (Low-Rank Adaptation)
+
+* Much lighter—trains small adapters instead of the full model.
+* Great if you want to adapt SDXL to your dataset without huge compute costs.
+* You can combine multiple LoRA adapters later (flexible).
