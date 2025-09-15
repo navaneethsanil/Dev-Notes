@@ -1,7 +1,7 @@
 # 📝 Dev Notes  
 
 A collection of **development notes, tips, snippets, and quick-start references** that I’ve gathered while working with different technologies.  
-The goal is simple: create a **go-to space for developers** (including future me 😅) to quickly pick up concepts and best practices without getting stuck in the weeds.  
+The goal is simple: create a **go-to space for developers** to quickly pick up concepts and best practices without getting stuck in the weeds.  
 
 ---
 
