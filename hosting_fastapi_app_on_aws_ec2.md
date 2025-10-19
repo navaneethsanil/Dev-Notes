@@ -47,6 +47,7 @@ pip install -r requirements.txt
 ---
 
 ## 5. Run With Uvicorn (Quick Test)
+*Before starting the server, ensure your environment variables are properly configured in a .env file. You can create or edit it using: nano .env)*
 ```bash
 uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
