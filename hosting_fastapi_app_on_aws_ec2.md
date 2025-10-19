@@ -130,6 +130,11 @@ sudo nginx -t
 sudo systemctl restart nginx
 ```
 
+### You can test the app by running the following command:
+```bash
+sudo systemctl status fastapi
+```
+
 Now your app is live at `http://<ec2-public-dns>` (no `:8000` needed).
 
 ---
